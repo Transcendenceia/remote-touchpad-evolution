@@ -43,6 +43,18 @@ const (
 	vkRight          uint16 = 0x27
 	vkDown           uint16 = 0x28
 	vkDelete         uint16 = 0x2E
+	vkF1             uint16 = 0x70
+	vkF2             uint16 = 0x71
+	vkF3             uint16 = 0x72
+	vkF4             uint16 = 0x73
+	vkF5             uint16 = 0x74
+	vkF6             uint16 = 0x75
+	vkF7             uint16 = 0x76
+	vkF8             uint16 = 0x77
+	vkF9             uint16 = 0x78
+	vkF10            uint16 = 0x79
+	vkF11            uint16 = 0x7A
+	vkF12            uint16 = 0x7B
 	vkLwin           uint16 = 0x5B
 	vkBrowserBack    uint16 = 0xA6
 	vkBrowserForward uint16 = 0xA7
@@ -139,6 +151,30 @@ func (p *windowsController) KeyboardKey(key Key) error {
 		input.wVk = vkBack
 	case KeyReturn:
 		input.wVk = vkReturn
+	case KeyF1:
+		input.wVk = vkF1
+	case KeyF2:
+		input.wVk = vkF2
+	case KeyF3:
+		input.wVk = vkF3
+	case KeyF4:
+		input.wVk = vkF4
+	case KeyF5:
+		input.wVk = vkF5
+	case KeyF6:
+		input.wVk = vkF6
+	case KeyF7:
+		input.wVk = vkF7
+	case KeyF8:
+		input.wVk = vkF8
+	case KeyF9:
+		input.wVk = vkF9
+	case KeyF10:
+		input.wVk = vkF10
+	case KeyF11:
+		input.wVk = vkF11
+	case KeyF12:
+		input.wVk = vkF12
 	case KeyEnd:
 		input.wVk = vkEnd
 	case KeyHome:
