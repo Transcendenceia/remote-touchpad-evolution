@@ -39,6 +39,18 @@ export const KEY_END = 14;
 export const KEY_BACK_SPACE = 15;
 export const KEY_DELETE = 16;
 export const KEY_RETURN = 17;
+export const KEY_F1 = 18;
+export const KEY_F2 = 19;
+export const KEY_F3 = 20;
+export const KEY_F4 = 21;
+export const KEY_F5 = 22;
+export const KEY_F6 = 23;
+export const KEY_F7 = 24;
+export const KEY_F8 = 25;
+export const KEY_F9 = 26;
+export const KEY_F10 = 27;
+export const KEY_F11 = 28;
+export const KEY_F12 = 29;
 
 export default class InputController {
     #updateRate = 0;

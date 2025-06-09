@@ -23,6 +23,16 @@ Supports Flatpak's RemoteDesktop portal (for Wayland), Windows and X11.
     go install github.com/unrud/remote-touchpad@latest
     ```
 
+### Debian XFCE (Spanish keyboard)
+
+Para usar Remote Touchpad en Debian con XFCE y teclado español ejecuta:
+
+```sh
+REMOTE_TOUCHPAD_UINPUT_KEYMAP=es ./remote-touchpad
+```
+
+Esto habilita todas las teclas, incluidas F1–F12, usando la disposición española.
+
 ## Screenshots
 
 ![screenshot 1](https://raw.githubusercontent.com/Unrud/remote-touchpad/master/screenshots/1.png)

@@ -38,6 +38,18 @@ const (
 	xkRight     Keysym = 0xff53
 	xkDown      Keysym = 0xff54
 	xkEnd       Keysym = 0xff57
+	xkF1        Keysym = 0xffbe
+	xkF2        Keysym = 0xffbf
+	xkF3        Keysym = 0xffc0
+	xkF4        Keysym = 0xffc1
+	xkF5        Keysym = 0xffc2
+	xkF6        Keysym = 0xffc3
+	xkF7        Keysym = 0xffc4
+	xkF8        Keysym = 0xffc5
+	xkF9        Keysym = 0xffc6
+	xkF10       Keysym = 0xffc7
+	xkF11       Keysym = 0xffc8
+	xkF12       Keysym = 0xffc9
 	xkSuperL    Keysym = 0xffeb
 	// X11/XF86keysym.h
 	xf86xkAudioLowerVolume Keysym = 0x1008ff11
@@ -71,6 +83,30 @@ func KeyToKeysym(key Key) (Keysym, error) {
 		return xkBackSpace, nil
 	case KeyReturn:
 		return xkReturn, nil
+	case KeyF1:
+		return xkF1, nil
+	case KeyF2:
+		return xkF2, nil
+	case KeyF3:
+		return xkF3, nil
+	case KeyF4:
+		return xkF4, nil
+	case KeyF5:
+		return xkF5, nil
+	case KeyF6:
+		return xkF6, nil
+	case KeyF7:
+		return xkF7, nil
+	case KeyF8:
+		return xkF8, nil
+	case KeyF9:
+		return xkF9, nil
+	case KeyF10:
+		return xkF10, nil
+	case KeyF11:
+		return xkF11, nil
+	case KeyF12:
+		return xkF12, nil
 	case KeyDelete:
 		return xkDelete, nil
 	case KeyHome:

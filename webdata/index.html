@@ -91,6 +91,22 @@
         <button style="grid-row: 5; grid-column: 1 / 3" onclick="app.text(this.textContent)">0</button>
         <button onclick="app.text(this.textContent)"><script>document.write(Intl.NumberFormat().formatToParts(1.1).find(x => x.type === "decimal").value)</script></button>
     </div>
+    <div class="page">
+        <button onclick="app.key(app.KEY_F1)">F1</button>
+        <button onclick="app.key(app.KEY_F2)">F2</button>
+        <button onclick="app.key(app.KEY_F3)">F3</button>
+        <button onclick="app.key(app.KEY_F4)">F4</button>
+
+        <button onclick="app.key(app.KEY_F5)">F5</button>
+        <button onclick="app.key(app.KEY_F6)">F6</button>
+        <button onclick="app.key(app.KEY_F7)">F7</button>
+        <button onclick="app.key(app.KEY_F8)">F8</button>
+
+        <button onclick="app.key(app.KEY_F9)">F9</button>
+        <button onclick="app.key(app.KEY_F10)">F10</button>
+        <button onclick="app.key(app.KEY_F11)">F11</button>
+        <button onclick="app.key(app.KEY_F12)">F12</button>
+    </div>
     <button class="top right" onclick="app.setKeysPage(1, true)">⮂</button>
     <button class="top left" onclick="history.back()">⯇</button>
 </div>

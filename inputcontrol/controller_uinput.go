@@ -133,6 +133,30 @@ func (p *uinputController) KeyboardKey(key Key) error {
 		uinputKey = uinput.KeyBackspace
 	case KeyReturn:
 		uinputKey = uinput.KeyEnter
+	case KeyF1:
+		uinputKey = uinput.KeyF1
+	case KeyF2:
+		uinputKey = uinput.KeyF2
+	case KeyF3:
+		uinputKey = uinput.KeyF3
+	case KeyF4:
+		uinputKey = uinput.KeyF4
+	case KeyF5:
+		uinputKey = uinput.KeyF5
+	case KeyF6:
+		uinputKey = uinput.KeyF6
+	case KeyF7:
+		uinputKey = uinput.KeyF7
+	case KeyF8:
+		uinputKey = uinput.KeyF8
+	case KeyF9:
+		uinputKey = uinput.KeyF9
+	case KeyF10:
+		uinputKey = uinput.KeyF10
+	case KeyF11:
+		uinputKey = uinput.KeyF11
+	case KeyF12:
+		uinputKey = uinput.KeyF12
 	case KeyDelete:
 		uinputKey = uinput.KeyDelete
 	case KeyHome:
